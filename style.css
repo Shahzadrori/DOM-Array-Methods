@@ -36,3 +36,7 @@ button{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: block;
 }
+main{
+    flex: 1;
+    padding: 10px 20px;
+}
