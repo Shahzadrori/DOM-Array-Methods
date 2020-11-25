@@ -22,3 +22,17 @@ aside{
     padding: 10px 20px;
     width: 250px;
 }
+button{
+    cursor: pointer;
+    background-color:#aaaaaa ;
+    outline: none;
+    border-color: #bbbbbb;
+    border-radius: 5px;
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: block;
+}
