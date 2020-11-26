@@ -16,4 +16,9 @@ async function getrandomuser(){
     const data = await res.json();
     const user = data.results[0];
     
+    const newuser = {
+        name:`${user.name.first} ${user.name.last}`,
+       money:Math.floor(Math.random() * 1000000)
+    };
+    adddata(newuser);
 }
