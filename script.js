@@ -20,5 +20,10 @@ async function getrandomuser(){
         name:`${user.name.first} ${user.name.last}`,
        money:Math.floor(Math.random() * 1000000)
     };
-    adddata(newuser);
+    addData(newuser);
+}
+
+//adding a new object
+function addData(obj){
+    data.push(obj);
 }
