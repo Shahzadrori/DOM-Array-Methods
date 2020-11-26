@@ -6,4 +6,13 @@
  const calculatewealthbtn = document.getElementById('calculate-wealth');
 
 let data = [];
+getrandomuser();
+getrandomuser();
+getrandomuser();
 
+//Fetch random user and money
+async function getrandomuser(){
+    const res = await fetch('https://randomuser.me/api');
+    const data = await res.json();
+    
+}
